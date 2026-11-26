@@ -72,3 +72,38 @@ nav a:hover {
 .banner button:hover {
     background-color: #d97706;
 }
+.produtos {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.produtos h2 {
+    font-size: 32px;
+    color: #111827;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    color: #7C3AED;
+    margin-bottom: 15px;
+}
