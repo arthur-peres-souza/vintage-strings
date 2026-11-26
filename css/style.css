@@ -30,3 +30,45 @@ nav a {
 nav a:hover {
     color: #F59E0B;
 }
+.logo p {
+    font-size: 14px;
+    color: #d1d5db;
+}
+.banner {
+    background-color: #7C3AED;
+    color: white;
+
+    text-align: center;
+
+    padding: 80px 20px;
+}
+
+.banner h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.banner button {
+    background-color: #F59E0B;
+    color: black;
+
+    border: none;
+
+    padding: 15px 30px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.banner button:hover {
+    background-color: #d97706;
+}
